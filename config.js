@@ -36,6 +36,10 @@ CKEDITOR.editorConfig = function( config ) {
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
 	
+	//Custom style for editor window
+    	config.contentsCss = '/css/main.css';
+	config.templates_replaceContent = false;
+	
 	//Allow insert divs
 	config.allowedContent = true;
 	config.extraAllowedContent = 'p(*)[*]{*};div(*)[*]{*};li(*)[*]{*};ul(*)[*]{*}';
