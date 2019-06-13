@@ -43,4 +43,7 @@ CKEDITOR.editorConfig = function( config ) {
 	//Allow insert divs
 	config.allowedContent = true;
 	config.extraAllowedContent = 'p(*)[*]{*};div(*)[*]{*};li(*)[*]{*};ul(*)[*]{*}';
+	
+	//Image upload fix
+    	config.filebrowserUploadMethod  = "form";
 };
